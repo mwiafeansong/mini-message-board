@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  header
+    h1= title
+  main
+    div(class="container")
+      button 
+        a(href="./new") New Message
+      each msg in messages
+        div(class="card")
+          p(class="text")= msg.text
+          p(class="user")= msg.user 
+          p(class="added")= msg.added
+  footer Created by 
+    a(href="https://www.github.com/mwiafeansong", target="_blank") mwiafeansong
+
