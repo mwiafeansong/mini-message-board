@@ -1,7 +1,7 @@
 # Mini Message Board
 
 This is a solution to the [Mini Message Board Project on The Odin Project](https://www.theodinproject.com/lessons/nodejs-mini-message-board).
-Users enter their names and messagesto be displayed on the board.
+Users enter their names and messages to be displayed on the board.
 
 ## Table of contents
 
